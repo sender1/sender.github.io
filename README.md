@@ -1,1 +1,1 @@
-# xgt.github.io
+# xgt
