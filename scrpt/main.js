@@ -23,7 +23,7 @@ function setUserName() {
       setUserName();        // Dialog nochmals anzeigen falls keine Name eingegeben wird: myname = null
     } else {
       localStorage.setItem('name', myName);
-      myHeading.textContent = 'Mozilla is cool, ' + myName;
+      myHeading.textContent = "xgt -- c'est chouette, " + myName;
     }
 }
   
@@ -31,7 +31,7 @@ if(!localStorage.getItem('name')) {
   setUserName();
 } else {
   let storedName = localStorage.getItem('name');
-  myHeading.textContent = 'Mozilla is cool, ' + storedName;
+  myHeading.textContent = "xgt -- c'est chouette, " + storedName;
 }
 
 myButton.onclick = function() {
